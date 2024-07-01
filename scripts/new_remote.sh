@@ -1,11 +1,11 @@
 #!/bin/bash
-# Run this on a remote server to setup an alt git server
+# Run this on a remote server to setup a git server that you can push code to.
 
 set -e
 
 [[ $# -gt 0 ]] && REPO_NAME="$1" || REPO_NAME='project'
 SERVER_DIR="${PWD}/${REPO_NAME}.git"
-CODE_DIR="${PWD}/${REPO_NAME}_code"
+CODE_DIR="${PWD}/${REPO_NAME}.code"
 
 mkdir -p $SERVER_DIR && cd $SERVER_DIR
 git init --bare
