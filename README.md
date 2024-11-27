@@ -1,4 +1,4 @@
-# mlab deployer
+# Code Deployer
 Continuous deployment done right.
 
 For people tired of running ad hoc deployment scripts
@@ -8,7 +8,7 @@ Use [this script][setup_sh] to setup a git server on your remote machine for eas
 
 ## Objective
 
-Easy CI/CD for mlab
+Easy CI/CD for experiments
 
 ## Overview
 
@@ -27,4 +27,4 @@ I like to keep my development environment clean, but I also don't want to source
 
 Automatic deployment with git
 
-[setup_sh]: https://github.com/nyu-mlab/deployer/blob/main/scripts/new_remote.sh
+[setup_sh]: https://github.com/WISPR-lab/deployer/blob/main/scripts/new_remote.sh
