@@ -6,6 +6,10 @@ and lack proper permissions to setup continuous deployment for their repository.
 
 Use [this script][setup_sh] to setup a git server on your remote machine for easy deployment.
 
+```bash
+curl -fsSL https://raw.githubusercontent.com/WISPR-lab/deployer/refs/heads/main/scripts/new_remote.sh | bash -s -- project
+```
+
 ## Objective
 
 Easy CI/CD for experiments

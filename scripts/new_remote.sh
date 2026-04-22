@@ -1,5 +1,6 @@
 #!/bin/bash
 # Run this on a remote server to setup a git server that you can push code to.
+# curl -fsSL https://raw.githubusercontent.com/WISPR-lab/deployer/refs/heads/main/scripts/new_remote.sh | bash -s -- project
 
 set -e
 
